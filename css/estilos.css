@@ -1,7 +1,8 @@
+@charset "UTF-8";
 .navbar {
   background: #000; }
 
-.active {
+.navbar-default .navbar-nav > .active > a {
   background-color: #CAC562; }
 
 /* Wrapper */
@@ -82,39 +83,82 @@
 .icon-button:hover .icon-google-plus {
   color: white; }
 
-.articulo img {
-  width: 100%;
-  height: auto; }
-.articulo h3 {
-  font-size: 20px; }
-.articulo p {
-  text-align: justify; }
-.articulo a {
-  border: 2px solid blue;
-  width: 100%;
-  display: inline-block;
-  text-align: center;
-  color: blue;
-  padding: 8px 0;
-  border-radius: 5px; }
+.articulo {
+  margin-bottom: 50px; }
+  .articulo img {
+    width: 100%;
+    height: auto; }
+  .articulo h3 {
+    font-size: 20px; }
+  .articulo p {
+    text-align: justify; }
+  .articulo a {
+    border: 2px solid blue;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    color: blue;
+    padding: 8px 0;
+    border-radius: 5px; }
 
 .parallax {
   height: 400px;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 50px; }
   .parallax h2 {
     text-align: center;
     font-size: 34px;
     padding-top: 200px;
     color: #ccc;
     text-transform: uppercase;
-    font-weight: bold; }
+    font-weight: bold;
+    position: relative; }
   .parallax:before {
+    content: '';
     display: inline-block;
+    background: #000;
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #000;
-    opacify: 0.4; }
+    opacity: 0.4; }
+
+.nav-tabs a {
+  font-size: 23px;
+  text-align: center; }
+
+.listatab {
+  text-align: center; }
+  .listatab ul {
+    display: inline-block; }
+
+.nav > li > a {
+  padding: 10px 96px; }
+
+.continfo {
+  color: #fff;
+  background: #fcb62b;
+  padding: 28px 61px 60px; }
+  .continfo h2 {
+    position: relative; }
+    .continfo h2:before {
+      content: ┬¿;
+      width: 60px;
+      height: 20px;
+      display: inline-block;
+      background: #fff;
+      position: absolute;
+      bottom: -7px; }
+  .continfo a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 22px;
+    margin-top: 15px;
+    display: inline-block; }
+    .continfo a:hover {
+      background: #8a5e02;
+      color: #fff;
+      text-decoration: none; }
 
 /*# sourceMappingURL=estilos.css.map */
