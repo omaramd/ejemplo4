@@ -7,54 +7,57 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+     <link rel="stylesheet" href="css/normalize.css"> 
      <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/normalize.css">
-     <link rel="stylesheet" href="css/estilos.css">
+    
+      <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+     
      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css">
+
+     <link rel="stylesheet" href="css/estilos.css">
 	
 	
 </head>
  <body>
 	<header>
-		<nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
       <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-       <div class="navbar-header">
-         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-         </button>
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
           <a class="navbar-brand" href="index.html">LOGO</a>
         </div>
 
-       
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Inicio<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Servicios</a></li>
-        <li><a href="#">Contactanos</a></li>
-        <li><a href="#">Blog</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contáctanos</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
           </ul>
-        </li>
-      </ul>
-     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</header>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>    
+  </header>
 
 <section class="parallax" style="background-image:url(img/parallax.jpg)">
 	<h2>VISITA PAGINA</h2>
@@ -98,7 +101,7 @@
    <div>
    <div class="listatab">
   <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
+  <ul class="nav nav-tabs menu-tab" role="tablist">
     <li role="presentation" class="active"><a href="#tab1" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><div>Transporte</div></a></li>
 
     <li role="presentation"><a href="#tab2" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-search" aria-hidden="true"></span><div>Almacenaje</div></a></li>
@@ -107,29 +110,64 @@
     
   </ul>
   </div>
+
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="tab1">
-      <div class="col-lg-6"></div>
-      <div class="col-lg-6">
-        <div class="continfo">
+
+  <div role="tabpanel" class="tab-pane active" id="tab1">
+  
+  <div class="col-lg-6 tabImg" style="background-image:url(img/banner1.png)"></div>
+
+      <div class="col-lg-6 tabImg contAnt">
+        <div class="continfo animated bounceInRight">
         <h2>Transporte</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
         <p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Mas Informacion</a>
         </div>
-      </div>
+        </div>
+        </div>
+        
 
+    <div role="tabpanel" class="tab-pane" id="tab2">
+    <div role="tabpanel" class="tab-pane active" id="tab1">
+  
+  <div class="col-lg-6 tabImg" style="background-image:url(img/banner1.png)"></div>
 
+      <div class="col-lg-6 tabImg contAnt">
+        <div class="continfo animated bounceInRight">
+        <h2>Logistica</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Mas Informacion</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        
 
-    </div>
-    <div role="tabpanel" class="tab-pane" id="tab2">Hola1</div>
-    <div role="tabpanel" class="tab-pane" id="tab3">Hola2</div>
-    
-  </div>
+    <div role="tabpanel" class="tab-pane" id="tab3">
+    <div role="tabpanel" class="tab-pane active" id="tab1">
+  
+  <div class="col-lg-6 tabImg" style="background-image:url(img/banner1.png)"></div>
 
-</div>
+      <div class="col-lg-6 tabImg contAnt">
+        <div class="continfo animated bounceInRight">
+        <h2>Almacenaje</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+        <p>cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#">Mas Informacion</a>
+        </div>
+        </div>
+        </div>
+        </div>
+
 </section>
 
 <section>

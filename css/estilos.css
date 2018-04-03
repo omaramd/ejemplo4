@@ -1,6 +1,83 @@
 @charset "UTF-8";
+/*declaracion de viarable*/
+.nav-tabs a {
+  font-size: 23px;
+  text-align: center; }
+
+.listatab {
+  text-align: center; }
+  .listatab ul {
+    display: inline-block; }
+
+.menu-tab.nav > li > a {
+  padding: 10px 96px; }
+
+.continfo {
+  color: #fff;
+  padding: 28px 61px 60px; }
+  .continfo h2 {
+    position: relative; }
+    .continfo h2:before {
+      content: ┬¿;
+      width: 60px;
+      height: 20px;
+      display: inline-block;
+      background: #fff;
+      position: absolute;
+      bottom: -7px; }
+  .continfo a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px 22px;
+    margin-top: 15px;
+    display: inline-block; }
+    .continfo a:hover {
+      background: #8a5e02;
+      color: #fff;
+      text-decoration: none; }
+
+.tabImg {
+  height: 340px; }
+
+.contAnt {
+  background: #fcb62b; }
+
+.menu-tab a {
+  color: #737276; }
+  .menu-tab a:hover {
+    color: #fcb62b; }
+  .menu-tab a:after {
+    content: '';
+    width: 2px;
+    height: 37px;
+    background: #737276;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 29px; }
+.menu-tab li.active {
+  border: none; }
+  .menu-tab li.active a {
+    color: #fcb62b; }
+    .menu-tab li.active a:focus {
+      color: #fcb62b; }
+.menu-tab li:last-child a:after {
+  display: none; }
+
+.nav > li > a:focus, .nav > li > a:hover {
+  background: #fff; }
+
+.nav-tabs > li > a:hover {
+  border-color: #fff; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+  border: 0; }
+
+.nav-tabs.menu-tab {
+  border-bottom: 0; }
+
 .navbar {
-  background: #000; }
+  background: #111; }
 
 .navbar-default .navbar-nav > .active > a {
   background-color: #CAC562; }
@@ -123,42 +200,5 @@
     width: 100%;
     height: 100%;
     opacity: 0.4; }
-
-.nav-tabs a {
-  font-size: 23px;
-  text-align: center; }
-
-.listatab {
-  text-align: center; }
-  .listatab ul {
-    display: inline-block; }
-
-.nav > li > a {
-  padding: 10px 96px; }
-
-.continfo {
-  color: #fff;
-  background: #fcb62b;
-  padding: 28px 61px 60px; }
-  .continfo h2 {
-    position: relative; }
-    .continfo h2:before {
-      content: ┬¿;
-      width: 60px;
-      height: 20px;
-      display: inline-block;
-      background: #fff;
-      position: absolute;
-      bottom: -7px; }
-  .continfo a {
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 5px 22px;
-    margin-top: 15px;
-    display: inline-block; }
-    .continfo a:hover {
-      background: #8a5e02;
-      color: #fff;
-      text-decoration: none; }
 
 /*# sourceMappingURL=estilos.css.map */
